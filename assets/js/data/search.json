@@ -1,30 +1,12 @@
 [
   
   {
-    "title": "Instalar Oracle",
-    "url": "/posts/instalar-oracle/",
-    "categories": "Sistemas",
-    "tags": "linux",
-    "date": "2025-10-10 11:05:34 +0200",
-    "content": "Instalar Oracle  Escribe aquí la introducción de tu post…  Sección 1  Contenido de la primera sección.  Subsección 1.1  Detalles…  # Ejemplo de código echo \"Hola Mundo\"   Sección 2  Más contenido…  Lista de elementos     Elemento 1   Elemento 2   Elemento 3   Comandos importantes  # Comando de ejemplo sudo apt update sudo apt upgrade -y   Conclusión  Resumen y conclusiones del post.  Referencias     Enlace 1   Enlace 2    "
-  },
-  
-  {
-    "title": "Instalación de MariaDB en Debian 13",
-    "url": "/posts/instalacion-de-mariadb-en-debian-13/",
-    "categories": "Base de Datos",
-    "tags": "debian, linux, sql",
-    "date": "2025-10-09 20:18:28 +0200",
-    "content": "1. Instalación de MariaDB  Paso 1: Vamos a abrir el terminal y vamos a ejecutar los siguientes comandos:    **sudo apt update —&gt; Vemos los paquetes que hay por actualizar en el sistema**  **sudo apt upgrade —&gt; En caso de que hubiera algún paquete lo actualizamos** **sudo apt install mariadb-server —&gt; Con este vamos instalar mariadb-server**    Cuando hemos instalado mariadb-server, vamos a iniciar y habilitar el servicio    **sudo systemctl start mariadb** —&gt; **Inicia el servicio de MariaDB**  **sudo systemctl enable mariadb —&gt; Habilita el servicio de MariaDB**    Y utilizando sudo systemctl status mariadb, podemos comprobar si el servicio está funcionando correctamente.      Paso 2: Una vez que hemos instalado e iniciado MariaDB vamos a realizar una configuración inicial ejecutando:    **sudo mariadb-secure-installation —&gt; Sirve para aplicar configuraciones básicas de seguridad en MariaDB tras la instalación.**     Explicación paso a paso de la configuración:     Configurar contraseña de root            Permite asignar o cambiar la contraseña del usuario administrador (root) de MariaDB.       En Debian, normalmente root usa autenticación unix_socket (sin contraseña, solo accesible con sudo), pero aquí puedes forzar el uso de contraseña.       En la contraseña ponemos lo que queramos pero yo siempre pongo root que es fácil de recordar                Eliminar usuarios anónimos            Borra las cuentas de MariaDB sin nombre de usuario, que permiten entrar sin credenciales.       Mejora la seguridad, ya que nadie podrá conectarse “de invitado”.                Restringir acceso remoto al root            Evita que el usuario root se conecte desde otras máquinas por la red.       Solo podrá conectarse desde localhost, es decir, desde el propio servidor.       Reduce el riesgo de ataques externos.                Eliminar la base de datos de prueba            MariaDB trae por defecto una base de datos de pruebas accesible para cualquiera.       El script la elimina y también borra sus permisos.       Esto evita que se use con fines indebidos.                Recargar privilegios            Refresca las tablas de permisos para aplicar de inmediato todos los cambios anteriores.             2. Creación de usuarios, base de datos y permisos.  En primer lugar vamos a entrar a MariaDB en el modo root para entrar como administradores, podemos hacerlo de dos formas    **sudo mysql -u root -p   —&gt; con -u le indicamos el usuario con el que entramos que es root y con -p nos pedirá la contraseña que hayamos puesto antes que también es root**      Podemos también entrar sin usar la opción -p y nos permitirá entrar igual sin poner la contraseña    2.1. Crear usuario  Ahora una vez dentro del usuario root vamos a crear un usuario nuevo que no sea administrador al cual llamaremos SCOTT que es con el que trabajamos en clase y de contraseña le ponemos TIGGER.    **CREATE USER ‘SCOTT’@’localhost’ IDENTIFIED BY ‘TIGGER’;**      2.2. Creación de la base de datos  A continuación vamos a crear una base de datos que asignaremos al usuario SCOTT la cual vamos a llamarle empresa.    **CREATE DATABASE empresa;**      2.3. Dar permisos al usuario y la base de datos.    **GRANT ALL PRIVILEGES ON empresa.* TO ‘SCOTT’@’localhost’;**        2.4. Acceso al usuario nuevo y la Base de datos.  Una vez hemos hecho todo lo anterior ya podemos salir del usuario root y vamos a entrar con SCOTT aquí si es importante poner -p porque no es un usuario administrador y nos pedirá la contraseña.    **mysql -u SCOTT -p**      "
-  },
-  
-  {
-    "title": "Instalación de Virtmanager",
-    "url": "/posts/instalacion-de-virtmanager/",
-    "categories": "General",
-    "tags": "",
-    "date": "2025-10-09 19:15:32 +0200",
-    "content": "Instalación de Virtmanager  Escribe aquí la introducción de tu post…  Sección 1  Contenido de la primera sección.  Subsección 1.1  Detalles…  # Ejemplo de código echo \"Hola Mundo\"   Sección 2  Más contenido…  Lista de elementos     Elemento 1   Elemento 2   Elemento 3   Comandos importantes  # Comando de ejemplo sudo apt update sudo apt upgrade -y   Conclusión  Resumen y conclusiones del post.  Referencias     Enlace 1   Enlace 2    "
+    "title": "Instalación y Configuración Inicial de Debian 13",
+    "url": "/posts/instalacion-debian-server/",
+    "categories": "Sistemas Linux, Debian",
+    "tags": "debian, linux, servidor, instalación, tutorial",
+    "date": "2025-10-09 13:00:00 +0200",
+    "content": "Instalación de Debian 13  En este tutorial aprenderás a instalar y configurar Debian Server desde cero.  Requisitos Previos     Imagen ISO de Debian 12 Server   Máquina física o virtual con:            2 GB RAM (mínimo)       20 GB disco duro       Conexión a Internet           Paso 1: Descargar Debian  Descarga la imagen ISO desde la web oficial: ```bash Enlace oficial https://www.debian.org/download "
   },
   
   {
