@@ -1,30 +1,12 @@
 [
   
   {
-    "title": "Postgresql",
-    "url": "/posts/postgresql/",
-    "categories": "Sistemas Linux",
-    "tags": "linux",
-    "date": "2025-10-10 13:12:34 +0200",
-    "content": "Postgresql  Escribe aquí la introducción de tu post…  Sección 1  Contenido de la primera sección.  Subsección 1.1  Detalles…  # Ejemplo de código echo \"Hola Mundo\"   Sección 2  Más contenido…  Lista de elementos     Elemento 1   Elemento 2   Elemento 3   Comandos importantes  # Comando de ejemplo sudo apt update sudo apt upgrade -y   Conclusión  Resumen y conclusiones del post.  Referencias     Enlace 1   Enlace 2    "
-  },
-  
-  {
-    "title": "Instalación de MariaDB en Debian 13",
-    "url": "/posts/instalacion-de-mariadb-en-debian-13/",
-    "categories": "Base de Datos",
-    "tags": "debian, linux, sql",
-    "date": "2025-10-09 20:18:28 +0200",
-    "content": "1. Instalación de MariaDB  Paso 1: Vamos a abrir el terminal y vamos a ejecutar los siguientes comandos:    **sudo apt update —&gt; Vemos los paquetes que hay por actualizar en el sistema**  **sudo apt upgrade —&gt; En caso de que hubiera algún paquete lo actualizamos** **sudo apt install mariadb-server —&gt; Con este vamos instalar mariadb-server**    Cuando hemos instalado mariadb-server, vamos a iniciar y habilitar el servicio    **sudo systemctl start mariadb** —&gt; **Inicia el servicio de MariaDB**  **sudo systemctl enable mariadb —&gt; Habilita el servicio de MariaDB**    Y utilizando sudo systemctl status mariadb, podemos comprobar si el servicio está funcionando correctamente.      Paso 2: Una vez que hemos instalado e iniciado MariaDB vamos a realizar una configuración inicial ejecutando:    **sudo mariadb-secure-installation —&gt; Sirve para aplicar configuraciones básicas de seguridad en MariaDB tras la instalación.**     Explicación paso a paso de la configuración:     Configurar contraseña de root            Permite asignar o cambiar la contraseña del usuario administrador (root) de MariaDB.       En Debian, normalmente root usa autenticación unix_socket (sin contraseña, solo accesible con sudo), pero aquí puedes forzar el uso de contraseña.       En la contraseña ponemos lo que queramos pero yo siempre pongo root que es fácil de recordar                Eliminar usuarios anónimos            Borra las cuentas de MariaDB sin nombre de usuario, que permiten entrar sin credenciales.       Mejora la seguridad, ya que nadie podrá conectarse “de invitado”.                Restringir acceso remoto al root            Evita que el usuario root se conecte desde otras máquinas por la red.       Solo podrá conectarse desde localhost, es decir, desde el propio servidor.       Reduce el riesgo de ataques externos.                Eliminar la base de datos de prueba            MariaDB trae por defecto una base de datos de pruebas accesible para cualquiera.       El script la elimina y también borra sus permisos.       Esto evita que se use con fines indebidos.                Recargar privilegios            Refresca las tablas de permisos para aplicar de inmediato todos los cambios anteriores.             2. Creación de usuarios, base de datos y permisos.  En primer lugar vamos a entrar a MariaDB en el modo root para entrar como administradores, podemos hacerlo de dos formas    **sudo mysql -u root -p   —&gt; con -u le indicamos el usuario con el que entramos que es root y con -p nos pedirá la contraseña que hayamos puesto antes que también es root**      Podemos también entrar sin usar la opción -p y nos permitirá entrar igual sin poner la contraseña    2.1. Crear usuario  Ahora una vez dentro del usuario root vamos a crear un usuario nuevo que no sea administrador al cual llamaremos SCOTT que es con el que trabajamos en clase y de contraseña le ponemos TIGGER.    **CREATE USER ‘SCOTT’@’localhost’ IDENTIFIED BY ‘TIGGER’;**      2.2. Creación de la base de datos  A continuación vamos a crear una base de datos que asignaremos al usuario SCOTT la cual vamos a llamarle empresa.    **CREATE DATABASE empresa;**      2.3. Dar permisos al usuario y la base de datos.    **GRANT ALL PRIVILEGES ON empresa.* TO ‘SCOTT’@’localhost’;**        2.4. Acceso al usuario nuevo y la Base de datos.  Una vez hemos hecho todo lo anterior ya podemos salir del usuario root y vamos a entrar con SCOTT aquí si es importante poner -p porque no es un usuario administrador y nos pedirá la contraseña.    **mysql -u SCOTT -p**      "
-  },
-  
-  {
-    "title": "Instalación de Virtmanager",
-    "url": "/posts/instalacion-de-virtmanager/",
-    "categories": "General",
-    "tags": "",
-    "date": "2025-10-09 19:15:32 +0200",
-    "content": "Instalación de Virtmanager  Escribe aquí la introducción de tu post…  Sección 1  Contenido de la primera sección.  Subsección 1.1  Detalles…  # Ejemplo de código echo \"Hola Mundo\"   Sección 2  Más contenido…  Lista de elementos     Elemento 1   Elemento 2   Elemento 3   Comandos importantes  # Comando de ejemplo sudo apt update sudo apt upgrade -y   Conclusión  Resumen y conclusiones del post.  Referencias     Enlace 1   Enlace 2    "
+    "title": "Instalación y Configuración Inicial de Debian 13",
+    "url": "/posts/instalacion-debian-server/",
+    "categories": "Sistemas Linux, Debian",
+    "tags": "debian, linux, servidor, instalación, tutorial",
+    "date": "2025-10-09 13:00:00 +0200",
+    "content": "Instalación de Debian 13  En este tutorial aprenderás a instalar y configurar Debian Server desde cero.  Requisitos Previos     Imagen ISO de Debian 12 Server   Máquina física o virtual con:            2 GB RAM (mínimo)       20 GB disco duro       Conexión a Internet           Paso 1: Descargar Debian  Descarga la imagen ISO desde la web oficial: ```bash Enlace oficial https://www.debian.org/download "
   },
   
   {
@@ -34,6 +16,15 @@
     "tags": "introducción, asir, administración-sistemas",
     "date": "2025-10-09 11:00:00 +0200",
     "content": "¡Bienvenido a La SectASIR!  Este es el espacio técnico dedicado a la Administración de Sistemas Informáticos y Redes.  ¿Qué es ASIR?  ASIR (Administración de Sistemas Informáticos y Redes) es una especialización técnica que forma profesionales capaces de:     🖥️ Administrar sistemas operativos (Linux y Windows)   🌐 Configurar y mantener redes empresariales   🔒 Implementar medidas de seguridad informática   ☁️ Gestionar infraestructuras cloud   🛠️ Automatizar tareas mediante scripting   ¿Qué Encontrarás Aquí?  En este blog publicaremos contenido sobre:  1. Tutoriales Prácticos Guías paso a paso sobre configuración de servicios, instalación de software y resolución de problemas.  2. Casos de Uso Reales Ejemplos de implementaciones en entornos reales de trabajo.  3. Mejores Prácticas Recomendaciones sobre seguridad, optimización y mantenimiento.  4. Laboratorios y Prácticas Ejercicios para montar tu propio lab y practicar.  Categorías Principales     Sistemas Linux: Administración, configuración y scripting   Redes: Protocolos, configuración y troubleshooting   Seguridad: Hardening, firewalls y VPNs   Virtualización: VMware, Proxmox, Docker   Servicios: Web, DNS, DHCP, correo, bases de datos   Automatización: Ansible, scripts Bash, Python   Nuestro Primer Proyecto  Para comenzar, estaremos publicando una serie sobre:     “Montando un Servidor Linux desde Cero”    Una guía completa que incluirá:        Instalación de Debian/Ubuntu Server     Configuración básica y hardening     Instalación de servicios (Apache, MySQL, PHP)     Configuración de firewall     Certificados SSL/TLS     Backup y monitorización      ¡Permanece atento!  Únete a la Comunidad  Este blog es para todos. Si tienes sugerencias, dudas o quieres compartir tus experiencias, ¡contáctanos!      ¡Bienvenido a bordo y happy sysadmin! 🚀 "
+  },
+  
+  {
+    "title": "Automatización en la Administración de Sistemas: el siguiente paso",
+    "url": "/posts/automatizacion-en-administracion-de-sistemas/",
+    "categories": "Administración, Automatización",
+    "tags": "bash, devops, administración de sistemas, jekyll",
+    "date": "2025-10-09 10:00:00 +0200",
+    "content": "En la actualidad, la Administración de Sistemas ha evolucionado mucho más allá de la simple gestión de usuarios o servicios. Con la creciente complejidad de los entornos tecnológicos, la automatización se ha convertido en una herramienta indispensable para cualquier administrador moderno.  💻 ¿Por qué automatizar?  Automatizar tareas repetitivas no solo ahorra tiempo, sino que reduce errores humanos y mejora la consistencia del entorno. Por ejemplo:    Actualizaciones automáticas del sistema y paquetes.   Copias de seguridad programadas.   Despliegues automáticos de sitios web (como este 😉).   Monitorización continua y alertas inteligentes.   🧠 Herramientas comunes  Algunas herramientas ampliamente utilizadas en la automatización son:     Bash y PowerShell para tareas de scripting.   Ansible, Puppet o Chef para configuración automatizada.   Jenkins o GitHub Actions para CI/CD.   Docker y Kubernetes para gestión de contenedores.   ⚙️ Un ejemplo sencillo  Imagina que queremos automatizar el proceso de despliegue de una web estática (como esta construida con Jekyll). Con un simple script en Bash, podríamos ejecutar:  ```bash bundle exec jekyll build git add . git commit -m “Despliegue automático” git push "
   }
   
 ]

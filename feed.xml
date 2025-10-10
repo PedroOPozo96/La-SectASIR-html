@@ -1,264 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://tu-usuario.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tu-usuario.github.io/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2025-10-10T13:12:56+02:00</updated><id>https://tu-usuario.github.io/feed.xml</id><title type="html">La SectASIR</title><subtitle>Blog técnico sobre administración de sistemas, redes,  seguridad informática y tecnologías de infraestructura.</subtitle><entry><title type="html">Postgresql</title><link href="https://tu-usuario.github.io/posts/postgresql/" rel="alternate" type="text/html" title="Postgresql" /><published>2025-10-10T13:12:34+02:00</published><updated>2025-10-10T13:12:34+02:00</updated><id>https://tu-usuario.github.io/posts/postgresql</id><content type="html" xml:base="https://tu-usuario.github.io/posts/postgresql/"><![CDATA[<h1 id="postgresql">Postgresql</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://tu-usuario.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tu-usuario.github.io/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2025-10-09T14:01:07+02:00</updated><id>https://tu-usuario.github.io/feed.xml</id><title type="html">La SectASIR</title><subtitle>Blog técnico sobre administración de sistemas, redes,  seguridad informática y tecnologías de infraestructura.</subtitle><entry><title type="html">Instalación y Configuración Inicial de Debian 13</title><link href="https://tu-usuario.github.io/posts/instalacion-debian-server/" rel="alternate" type="text/html" title="Instalación y Configuración Inicial de Debian 13" /><published>2025-10-09T13:00:00+02:00</published><updated>2025-10-09T13:00:00+02:00</updated><id>https://tu-usuario.github.io/posts/instalacion-debian-server</id><content type="html" xml:base="https://tu-usuario.github.io/posts/instalacion-debian-server/"><![CDATA[<h1 id="instalación-de-debian-13">Instalación de Debian 13</h1>
 
-<p>Escribe aquí la introducción de tu post…</p>
+<p>En este tutorial aprenderás a instalar y configurar Debian Server desde cero.</p>
 
-<h2 id="sección-1">Sección 1</h2>
-
-<p>Contenido de la primera sección.</p>
-
-<h3 id="subsección-11">Subsección 1.1</h3>
-
-<p>Detalles…</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c"># Ejemplo de código</span>
-<span class="nb">echo</span> <span class="s2">"Hola Mundo"</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="sección-2">Sección 2</h2>
-
-<p>Más contenido…</p>
-
-<h3 id="lista-de-elementos">Lista de elementos</h3>
+<h2 id="requisitos-previos">Requisitos Previos</h2>
 
 <ul>
-  <li>Elemento 1</li>
-  <li>Elemento 2</li>
-  <li>Elemento 3</li>
+  <li>Imagen ISO de Debian 12 Server</li>
+  <li>Máquina física o virtual con:
+    <ul>
+      <li>2 GB RAM (mínimo)</li>
+      <li>20 GB disco duro</li>
+      <li>Conexión a Internet</li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="comandos-importantes">Comandos importantes</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="c"># Comando de ejemplo</span>
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt upgrade <span class="nt">-y</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="conclusión">Conclusión</h2>
-
-<p>Resumen y conclusiones del post.</p>
-
-<h2 id="referencias">Referencias</h2>
-
-<ul>
-  <li><a href="https://ejemplo.com">Enlace 1</a></li>
-  <li><a href="https://ejemplo.com">Enlace 2</a></li>
-</ul>
-
-<p><img src="https://via.placeholder.com/800x400" alt="Imagen de ejemplo" /></p>]]></content><author><name></name></author><category term="Sistemas Linux" /><category term="linux" /><summary type="html"><![CDATA[Postgresql]]></summary></entry><entry><title type="html">Instalación de MariaDB en Debian 13</title><link href="https://tu-usuario.github.io/posts/instalacion-de-mariadb-en-debian-13/" rel="alternate" type="text/html" title="Instalación de MariaDB en Debian 13" /><published>2025-10-09T20:18:28+02:00</published><updated>2025-10-09T20:18:28+02:00</updated><id>https://tu-usuario.github.io/posts/instalacion-de-mariadb-en-debian-13</id><content type="html" xml:base="https://tu-usuario.github.io/posts/instalacion-de-mariadb-en-debian-13/"><![CDATA[<h1 id="1-instalación-de-mariadb">1. Instalación de MariaDB</h1>
-
-<h3 id="paso-1-vamos-a-abrir-el-terminal-y-vamos-a-ejecutar-los-siguientes-comandos">Paso 1: Vamos a abrir el terminal y vamos a ejecutar los siguientes comandos:</h3>
-
-<aside>
-
-**sudo apt update —&gt; Vemos los paquetes que hay por actualizar en el sistema**
-
-**sudo apt upgrade —&gt; En caso de que hubiera algún paquete lo actualizamos**
-**sudo apt install mariadb-server —&gt; Con este vamos instalar mariadb-server**
-
-</aside>
-
-<p>Cuando hemos instalado <strong>mariadb-server,</strong> vamos a iniciar y habilitar el servicio</p>
-
-<aside>
-
-**sudo systemctl start mariadb** —&gt; **Inicia el servicio de MariaDB**
-
-**sudo systemctl enable mariadb —&gt; Habilita el servicio de MariaDB**
-
-</aside>
-
-<p>Y utilizando <strong>sudo systemctl status mariadb,</strong> podemos comprobar si el servicio está funcionando correctamente.</p>
-
-<p><img src="attachment:64882c1d-145b-40a7-9acf-5da2da0c7cdc:image.png" alt="image.png" /></p>
-
-<hr />
-
-<h3 id="paso-2-una-vez-que-hemos-instalado-e-iniciado-mariadb-vamos-a-realizar-una-configuración-inicial-ejecutando">Paso 2: Una vez que hemos instalado e iniciado MariaDB vamos a realizar una configuración inicial ejecutando:</h3>
-
-<aside>
-
-**sudo mariadb-secure-installation —&gt; Sirve para aplicar configuraciones básicas de seguridad en MariaDB tras la instalación.** 
-
-</aside>
-
-<p><strong>Explicación paso a paso de la configuración:</strong></p>
-
-<ol>
-  <li><strong>Configurar contraseña de root</strong>
-    <ul>
-      <li>Permite asignar o cambiar la contraseña del usuario administrador (<code class="language-plaintext highlighter-rouge">root</code>) de MariaDB.</li>
-      <li>En Debian, normalmente root usa autenticación <code class="language-plaintext highlighter-rouge">unix_socket</code> (sin contraseña, solo accesible con <code class="language-plaintext highlighter-rouge">sudo</code>), pero aquí puedes forzar el uso de contraseña.</li>
-      <li>En la contraseña ponemos lo que queramos pero yo siempre pongo <strong>root</strong> que es fácil de recordar</li>
-    </ul>
-  </li>
-</ol>
-
-<p><img src="attachment:ce3ea9d0-43ff-417e-b771-f8aa1caf3e0c:image.png" alt="image.png" /></p>
-
-<ol>
-  <li><strong>Eliminar usuarios anónimos</strong>
-    <ul>
-      <li>Borra las cuentas de MariaDB sin nombre de usuario, que permiten entrar sin credenciales.</li>
-      <li>Mejora la seguridad, ya que nadie podrá conectarse “de invitado”.</li>
-    </ul>
-  </li>
-</ol>
-
-<p><img src="attachment:bdaf819e-df35-44a1-a1d0-c4d3afbc7218:image.png" alt="image.png" /></p>
-
-<ol>
-  <li><strong>Restringir acceso remoto al root</strong>
-    <ul>
-      <li>Evita que el usuario <code class="language-plaintext highlighter-rouge">root</code> se conecte desde otras máquinas por la red.</li>
-      <li>Solo podrá conectarse desde <code class="language-plaintext highlighter-rouge">localhost</code>, es decir, desde el propio servidor.</li>
-      <li>Reduce el riesgo de ataques externos.</li>
-    </ul>
-  </li>
-</ol>
-
-<p><img src="attachment:1fb6b59d-7143-4fb2-9ced-b4559f87aaa4:image.png" alt="image.png" /></p>
-
-<ol>
-  <li><strong>Eliminar la base de datos de prueba</strong>
-    <ul>
-      <li>MariaDB trae por defecto una base de datos de pruebas accesible para cualquiera.</li>
-      <li>El script la elimina y también borra sus permisos.</li>
-      <li>Esto evita que se use con fines indebidos.</li>
-    </ul>
-  </li>
-</ol>
-
-<p><img src="attachment:85863b3e-f690-4fb2-bd98-5cb1f70bb087:da15904a-47ea-4960-9787-b69ce45e911b.png" alt="image.png" /></p>
-
-<ol>
-  <li><strong>Recargar privilegios</strong>
-    <ul>
-      <li>Refresca las tablas de permisos para aplicar de inmediato todos los cambios anteriores.</li>
-    </ul>
-  </li>
-</ol>
-
-<p><img src="attachment:56ed0d6b-646a-4d2a-af50-f1a15e3b9bce:image.png" alt="image.png" /></p>
-
-<h1 id="2-creación-de-usuarios-base-de-datos-y-permisos">2. Creación de usuarios, base de datos y permisos.</h1>
-
-<p>En primer lugar vamos a entrar a MariaDB en el modo root para entrar como administradores, podemos hacerlo de dos formas</p>
-
-<aside>
-
-**sudo mysql -u root -p   —&gt; con -u le indicamos el usuario con el que entramos que es root y con -p nos pedirá la contraseña que hayamos puesto antes que también es root**
-
-</aside>
-
-<p><img src="attachment:179971b8-aebf-44ae-89b1-04bbfc9d1390:Captura_desde_2025-09-23_20-23-22.png" alt="Captura desde 2025-09-23 20-23-22.png" /></p>
-
-<p>Podemos también entrar sin usar la opción <strong>-p</strong> y nos permitirá entrar igual sin poner la contraseña</p>
-
-<p><img src="attachment:0f58e5ee-47f9-4f26-a7c7-9dd70840c246:image.png" alt="image.png" /></p>
-
-<h2 id="21-crear-usuario">2.1. Crear usuario</h2>
-
-<p>Ahora una vez dentro del usuario root vamos a crear un usuario nuevo que no sea administrador al cual llamaremos SCOTT que es con el que trabajamos en clase y de contraseña le ponemos TIGGER.</p>
-
-<aside>
-
-**CREATE USER ‘SCOTT’@’localhost’ IDENTIFIED BY ‘TIGGER’;**
-
-</aside>
-
-<p><img src="attachment:40a37976-bf4e-498a-a307-a476782aa37a:image.png" alt="image.png" /></p>
-
-<h2 id="22-creación-de-la-base-de-datos">2.2. Creación de la base de datos</h2>
-
-<p>A continuación vamos a crear una base de datos que asignaremos al usuario SCOTT la cual vamos a llamarle empresa.</p>
-
-<aside>
-
-**CREATE DATABASE empresa;**
-
-</aside>
-
-<p><img src="attachment:192831df-683b-4112-a961-490fd69f51cc:image.png" alt="image.png" /></p>
-
-<h2 id="23-dar-permisos-al-usuario-y-la-base-de-datos">2.3. Dar permisos al usuario y la base de datos.</h2>
-
-<aside>
-
-**GRANT ALL PRIVILEGES ON empresa.* TO ‘SCOTT’@’localhost’;**
-
-</aside>
-
-<p><img src="attachment:3a7bcbd9-1f7d-4cb3-8c1d-0d9d9a8cf753:image.png" alt="image.png" /></p>
-
-<hr />
-
-<h2 id="24-acceso-al-usuario-nuevo-y-la-base-de-datos">2.4. Acceso al usuario nuevo y la Base de datos.</h2>
-
-<p>Una vez hemos hecho todo lo anterior ya podemos salir del usuario root y vamos a entrar con SCOTT aquí si es importante poner -p porque no es un usuario administrador y nos pedirá la contraseña.</p>
-
-<aside>
-
-**mysql -u SCOTT -p** 
-
-</aside>
-
-<p><img src="attachment:65917d9e-0376-4755-96f9-56afb6851234:image.png" alt="image.png" /></p>]]></content><author><name></name></author><category term="Base de Datos" /><category term="debian" /><category term="linux" /><category term="sql" /><summary type="html"><![CDATA[1. Instalación de MariaDB]]></summary></entry><entry><title type="html">Instalación de Virtmanager</title><link href="https://tu-usuario.github.io/posts/instalacion-de-virtmanager/" rel="alternate" type="text/html" title="Instalación de Virtmanager" /><published>2025-10-09T19:15:32+02:00</published><updated>2025-10-09T19:15:32+02:00</updated><id>https://tu-usuario.github.io/posts/instalacion-de-virtmanager</id><content type="html" xml:base="https://tu-usuario.github.io/posts/instalacion-de-virtmanager/"><![CDATA[<h1 id="instalación-de-virtmanager">Instalación de Virtmanager</h1>
-
-<p>Escribe aquí la introducción de tu post…</p>
-
-<h2 id="sección-1">Sección 1</h2>
-
-<p>Contenido de la primera sección.</p>
-
-<h3 id="subsección-11">Subsección 1.1</h3>
-
-<p>Detalles…</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c"># Ejemplo de código</span>
-<span class="nb">echo</span> <span class="s2">"Hola Mundo"</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="sección-2">Sección 2</h2>
-
-<p>Más contenido…</p>
-
-<h3 id="lista-de-elementos">Lista de elementos</h3>
-
-<ul>
-  <li>Elemento 1</li>
-  <li>Elemento 2</li>
-  <li>Elemento 3</li>
-</ul>
-
-<h3 id="comandos-importantes">Comandos importantes</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="c"># Comando de ejemplo</span>
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt upgrade <span class="nt">-y</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="conclusión">Conclusión</h2>
-
-<p>Resumen y conclusiones del post.</p>
-
-<h2 id="referencias">Referencias</h2>
-
-<ul>
-  <li><a href="https://ejemplo.com">Enlace 1</a></li>
-  <li><a href="https://ejemplo.com">Enlace 2</a></li>
-</ul>
-
-<p><img src="https://via.placeholder.com/800x400" alt="Imagen de ejemplo" /></p>]]></content><author><name></name></author><category term="General" /><summary type="html"><![CDATA[Instalación de Virtmanager]]></summary></entry><entry><title type="html">Presentación de La SectASIR</title><link href="https://tu-usuario.github.io/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Presentación de La SectASIR" /><published>2025-10-09T11:00:00+02:00</published><updated>2025-10-09T11:00:00+02:00</updated><id>https://tu-usuario.github.io/posts/welcome-to-jekyll</id><content type="html" xml:base="https://tu-usuario.github.io/posts/welcome-to-jekyll/"><![CDATA[<h1 id="bienvenido-a-la-sectasir">¡Bienvenido a La SectASIR!</h1>
+<h2 id="paso-1-descargar-debian">Paso 1: Descargar Debian</h2>
+
+<p>Descarga la imagen ISO desde la web oficial:
+```bash</p>
+<h1 id="enlace-oficial">Enlace oficial</h1>
+<p>https://www.debian.org/download</p>]]></content><author><name></name></author><category term="Sistemas Linux" /><category term="Debian" /><category term="debian" /><category term="linux" /><category term="servidor" /><category term="instalación" /><category term="tutorial" /><summary type="html"><![CDATA[Instalación de Debian 13]]></summary></entry><entry><title type="html">Presentación de La SectASIR</title><link href="https://tu-usuario.github.io/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Presentación de La SectASIR" /><published>2025-10-09T11:00:00+02:00</published><updated>2025-10-09T11:00:00+02:00</updated><id>https://tu-usuario.github.io/posts/welcome-to-jekyll</id><content type="html" xml:base="https://tu-usuario.github.io/posts/welcome-to-jekyll/"><![CDATA[<h1 id="bienvenido-a-la-sectasir">¡Bienvenido a La SectASIR!</h1>
 
 <p>Este es el espacio técnico dedicado a la <strong>Administración de Sistemas Informáticos y Redes</strong>.</p>
 
@@ -329,4 +91,36 @@
 
 <hr />
 
-<p><strong>¡Bienvenido a bordo y happy sysadmin!</strong> 🚀</p>]]></content><author><name></name></author><category term="General" /><category term="Bienvenida" /><category term="introducción" /><category term="asir" /><category term="administración-sistemas" /><summary type="html"><![CDATA[¡Bienvenido a La SectASIR!]]></summary></entry></feed>
+<p><strong>¡Bienvenido a bordo y happy sysadmin!</strong> 🚀</p>]]></content><author><name></name></author><category term="General" /><category term="Bienvenida" /><category term="introducción" /><category term="asir" /><category term="administración-sistemas" /><summary type="html"><![CDATA[¡Bienvenido a La SectASIR!]]></summary></entry><entry><title type="html">Automatización en la Administración de Sistemas: el siguiente paso</title><link href="https://tu-usuario.github.io/posts/automatizacion-en-administracion-de-sistemas/" rel="alternate" type="text/html" title="Automatización en la Administración de Sistemas: el siguiente paso" /><published>2025-10-09T10:00:00+02:00</published><updated>2025-10-09T10:00:00+02:00</updated><id>https://tu-usuario.github.io/posts/automatizacion-en-administracion-de-sistemas</id><content type="html" xml:base="https://tu-usuario.github.io/posts/automatizacion-en-administracion-de-sistemas/"><![CDATA[<p>En la actualidad, la <strong>Administración de Sistemas</strong> ha evolucionado mucho más allá de la simple gestión de usuarios o servicios. Con la creciente complejidad de los entornos tecnológicos, la <strong>automatización</strong> se ha convertido en una herramienta indispensable para cualquier administrador moderno.</p>
+
+<h2 id="-por-qué-automatizar">💻 ¿Por qué automatizar?</h2>
+
+<p>Automatizar tareas repetitivas no solo ahorra tiempo, sino que <strong>reduce errores humanos</strong> y mejora la <strong>consistencia</strong> del entorno. Por ejemplo:</p>
+<ul>
+  <li>Actualizaciones automáticas del sistema y paquetes.</li>
+  <li>Copias de seguridad programadas.</li>
+  <li>Despliegues automáticos de sitios web (como este 😉).</li>
+  <li>Monitorización continua y alertas inteligentes.</li>
+</ul>
+
+<h2 id="-herramientas-comunes">🧠 Herramientas comunes</h2>
+
+<p>Algunas herramientas ampliamente utilizadas en la automatización son:</p>
+
+<ul>
+  <li><strong>Bash</strong> y <strong>PowerShell</strong> para tareas de scripting.</li>
+  <li><strong>Ansible</strong>, <strong>Puppet</strong> o <strong>Chef</strong> para configuración automatizada.</li>
+  <li><strong>Jenkins</strong> o <strong>GitHub Actions</strong> para CI/CD.</li>
+  <li><strong>Docker</strong> y <strong>Kubernetes</strong> para gestión de contenedores.</li>
+</ul>
+
+<h2 id="️-un-ejemplo-sencillo">⚙️ Un ejemplo sencillo</h2>
+
+<p>Imagina que queremos automatizar el proceso de despliegue de una web estática (como esta construida con Jekyll).<br />
+Con un simple script en <strong>Bash</strong>, podríamos ejecutar:</p>
+
+<p>```bash
+bundle exec jekyll build
+git add .
+git commit -m “Despliegue automático”
+git push</p>]]></content><author><name></name></author><category term="Administración" /><category term="Automatización" /><category term="bash" /><category term="devops" /><category term="administración de sistemas" /><category term="jekyll" /><summary type="html"><![CDATA[En la actualidad, la Administración de Sistemas ha evolucionado mucho más allá de la simple gestión de usuarios o servicios. Con la creciente complejidad de los entornos tecnológicos, la automatización se ha convertido en una herramienta indispensable para cualquier administrador moderno.]]></summary></entry></feed>
