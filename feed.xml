@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://tu-usuario.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tu-usuario.github.io/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2025-10-10T20:03:02+02:00</updated><id>https://tu-usuario.github.io/feed.xml</id><title type="html">La SectASIR</title><subtitle>Blog técnico sobre administración de sistemas, redes,  seguridad informática y tecnologías de infraestructura.</subtitle><entry><title type="html">Post de Prueba</title><link href="https://tu-usuario.github.io/posts/post-de-prueba/" rel="alternate" type="text/html" title="Post de Prueba" /><published>2025-10-10T20:02:52+02:00</published><updated>2025-10-10T20:02:52+02:00</updated><id>https://tu-usuario.github.io/posts/post-de-prueba</id><content type="html" xml:base="https://tu-usuario.github.io/posts/post-de-prueba/"><![CDATA[<h1 id="post-de-prueba">Post de Prueba</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://tu-usuario.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tu-usuario.github.io/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2025-10-10T20:04:24+02:00</updated><id>https://tu-usuario.github.io/feed.xml</id><title type="html">La SectASIR</title><subtitle>Blog técnico sobre administración de sistemas, redes,  seguridad informática y tecnologías de infraestructura.</subtitle><entry><title type="html">Prueba 2</title><link href="https://tu-usuario.github.io/posts/prueba-2/" rel="alternate" type="text/html" title="Prueba 2" /><published>2025-10-10T20:04:04+02:00</published><updated>2025-10-10T20:04:04+02:00</updated><id>https://tu-usuario.github.io/posts/prueba-2</id><content type="html" xml:base="https://tu-usuario.github.io/posts/prueba-2/"><![CDATA[<h1 id="prueba-2">Prueba 2</h1>
+
+<p>Escribe aquí la introducción de tu post…</p>
+
+<h2 id="sección-1">Sección 1</h2>
+
+<p>Contenido de la primera sección.</p>
+
+<h3 id="subsección-11">Subsección 1.1</h3>
+
+<p>Detalles…</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="c"># Ejemplo de código</span>
+<span class="nb">echo</span> <span class="s2">"Hola Mundo"</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="sección-2">Sección 2</h2>
+
+<p>Más contenido…</p>
+
+<h3 id="lista-de-elementos">Lista de elementos</h3>
+
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+
+<h3 id="comandos-importantes">Comandos importantes</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="c"># Comando de ejemplo</span>
+<span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt upgrade <span class="nt">-y</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>Resumen y conclusiones del post.</p>
+
+<h2 id="referencias">Referencias</h2>
+
+<ul>
+  <li><a href="https://ejemplo.com">Enlace 1</a></li>
+  <li><a href="https://ejemplo.com">Enlace 2</a></li>
+</ul>
+
+<p><img src="https://via.placeholder.com/800x400" alt="Imagen de ejemplo" /></p>]]></content><author><name></name></author><category term="Redes" /><category term="redes" /><summary type="html"><![CDATA[Prueba 2]]></summary></entry><entry><title type="html">Post de Prueba</title><link href="https://tu-usuario.github.io/posts/post-de-prueba/" rel="alternate" type="text/html" title="Post de Prueba" /><published>2025-10-10T20:02:52+02:00</published><updated>2025-10-10T20:02:52+02:00</updated><id>https://tu-usuario.github.io/posts/post-de-prueba</id><content type="html" xml:base="https://tu-usuario.github.io/posts/post-de-prueba/"><![CDATA[<h1 id="post-de-prueba">Post de Prueba</h1>
 
 <p>Escribe aquí la introducción de tu post…</p>
 

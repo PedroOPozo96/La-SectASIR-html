@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Prueba 2",
+    "url": "/posts/prueba-2/",
+    "categories": "Redes",
+    "tags": "redes",
+    "date": "2025-10-10 20:04:04 +0200",
+    "content": "Prueba 2  Escribe aquí la introducción de tu post…  Sección 1  Contenido de la primera sección.  Subsección 1.1  Detalles…  # Ejemplo de código echo \"Hola Mundo\"   Sección 2  Más contenido…  Lista de elementos     Elemento 1   Elemento 2   Elemento 3   Comandos importantes  # Comando de ejemplo sudo apt update sudo apt upgrade -y   Conclusión  Resumen y conclusiones del post.  Referencias     Enlace 1   Enlace 2    "
+  },
+  
+  {
     "title": "Post de Prueba",
     "url": "/posts/post-de-prueba/",
     "categories": "General",
