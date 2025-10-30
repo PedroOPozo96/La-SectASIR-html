@@ -1,0 +1,31 @@
+[
+  
+  {
+    "title": "Instalación y Configuración Inicial de Debian 13",
+    "url": "/posts/instalacion-debian-server/",
+    "categories": "Sistemas Linux, Debian",
+    "tags": "debian, linux, servidor, instalación, tutorial",
+    "date": "2025-10-09 13:00:00 +0200",
+    "content": "Instalación de Debian 13  En este tutorial aprenderás a instalar y configurar Debian Server desde cero.  Requisitos Previos     Imagen ISO de Debian 12 Server   Máquina física o virtual con:            2 GB RAM (mínimo)       20 GB disco duro       Conexión a Internet           Paso 1: Descargar Debian  Descarga la imagen ISO desde la web oficial: ```bash Enlace oficial https://www.debian.org/download "
+  },
+  
+  {
+    "title": "Presentación de La SectASIR",
+    "url": "/posts/welcome-to-jekyll/",
+    "categories": "General, Bienvenida",
+    "tags": "introducción, asir, administración-sistemas",
+    "date": "2025-10-09 11:00:00 +0200",
+    "content": "¡Bienvenido a La SectASIR!  Este es el espacio técnico dedicado a la Administración de Sistemas Informáticos y Redes.  ¿Qué es ASIR?  ASIR (Administración de Sistemas Informáticos y Redes) es una especialización técnica que forma profesionales capaces de:     🖥️ Administrar sistemas operativos (Linux y Windows)   🌐 Configurar y mantener redes empresariales   🔒 Implementar medidas de seguridad informática   ☁️ Gestionar infraestructuras cloud   🛠️ Automatizar tareas mediante scripting   ¿Qué Encontrarás Aquí?  En este blog publicaremos contenido sobre:  1. Tutoriales Prácticos Guías paso a paso sobre configuración de servicios, instalación de software y resolución de problemas.  2. Casos de Uso Reales Ejemplos de implementaciones en entornos reales de trabajo.  3. Mejores Prácticas Recomendaciones sobre seguridad, optimización y mantenimiento.  4. Laboratorios y Prácticas Ejercicios para montar tu propio lab y practicar.  Categorías Principales     Sistemas Linux: Administración, configuración y scripting   Redes: Protocolos, configuración y troubleshooting   Seguridad: Hardening, firewalls y VPNs   Virtualización: VMware, Proxmox, Docker   Servicios: Web, DNS, DHCP, correo, bases de datos   Automatización: Ansible, scripts Bash, Python   Nuestro Primer Proyecto  Para comenzar, estaremos publicando una serie sobre:     “Montando un Servidor Linux desde Cero”    Una guía completa que incluirá:        Instalación de Debian/Ubuntu Server     Configuración básica y hardening     Instalación de servicios (Apache, MySQL, PHP)     Configuración de firewall     Certificados SSL/TLS     Backup y monitorización      ¡Permanece atento!  Únete a la Comunidad  Este blog es para todos. Si tienes sugerencias, dudas o quieres compartir tus experiencias, ¡contáctanos!      ¡Bienvenido a bordo y happy sysadmin! 🚀 "
+  },
+  
+  {
+    "title": "Automatización en la Administración de Sistemas: el siguiente paso",
+    "url": "/posts/automatizacion-en-administracion-de-sistemas/",
+    "categories": "Administración, Automatización",
+    "tags": "bash, devops, administración de sistemas, jekyll",
+    "date": "2025-10-09 10:00:00 +0200",
+    "content": "En la actualidad, la Administración de Sistemas ha evolucionado mucho más allá de la simple gestión de usuarios o servicios. Con la creciente complejidad de los entornos tecnológicos, la automatización se ha convertido en una herramienta indispensable para cualquier administrador moderno.  💻 ¿Por qué automatizar?  Automatizar tareas repetitivas no solo ahorra tiempo, sino que reduce errores humanos y mejora la consistencia del entorno. Por ejemplo:    Actualizaciones automáticas del sistema y paquetes.   Copias de seguridad programadas.   Despliegues automáticos de sitios web (como este 😉).   Monitorización continua y alertas inteligentes.   🧠 Herramientas comunes  Algunas herramientas ampliamente utilizadas en la automatización son:     Bash y PowerShell para tareas de scripting.   Ansible, Puppet o Chef para configuración automatizada.   Jenkins o GitHub Actions para CI/CD.   Docker y Kubernetes para gestión de contenedores.   ⚙️ Un ejemplo sencillo  Imagina que queremos automatizar el proceso de despliegue de una web estática (como esta construida con Jekyll). Con un simple script en Bash, podríamos ejecutar:  ```bash bundle exec jekyll build git add . git commit -m “Despliegue automático” git push "
+  }
+  
+]
+
