@@ -1,103 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://tu-usuario.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tu-usuario.github.io/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2025-10-30T13:36:52+01:00</updated><id>https://tu-usuario.github.io/feed.xml</id><title type="html">La SectASIR</title><subtitle>Blog técnico sobre administración de sistemas, redes,  seguridad informática y tecnologías de infraestructura.</subtitle><entry><title type="html">Prueba: Introducción a la implantación de aplicaciones Web</title><link href="https://tu-usuario.github.io/posts/prueba-introduccion-a-la-implantacion-de-aplicaciones-web/" rel="alternate" type="text/html" title="Prueba: Introducción a la implantación de aplicaciones Web" /><published>2025-10-30T13:35:55+01:00</published><updated>2025-10-30T13:35:55+01:00</updated><id>https://tu-usuario.github.io/posts/-prueba-introduccion-a-la-implantacion-de-aplicaciones-web-</id><content type="html" xml:base="https://tu-usuario.github.io/posts/prueba-introduccion-a-la-implantacion-de-aplicaciones-web/"><![CDATA[<h1 id="prueba-introducción-a-la-implantación-de-aplicaciones-web">“Prueba: Introducción a la implantación de aplicaciones Web”</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://tu-usuario.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tu-usuario.github.io/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2025-10-09T14:01:07+02:00</updated><id>https://tu-usuario.github.io/feed.xml</id><title type="html">La SectASIR</title><subtitle>Blog técnico sobre administración de sistemas, redes,  seguridad informática y tecnologías de infraestructura.</subtitle><entry><title type="html">Instalación y Configuración Inicial de Debian 13</title><link href="https://tu-usuario.github.io/posts/instalacion-debian-server/" rel="alternate" type="text/html" title="Instalación y Configuración Inicial de Debian 13" /><published>2025-10-09T13:00:00+02:00</published><updated>2025-10-09T13:00:00+02:00</updated><id>https://tu-usuario.github.io/posts/instalacion-debian-server</id><content type="html" xml:base="https://tu-usuario.github.io/posts/instalacion-debian-server/"><![CDATA[<h1 id="instalación-de-debian-13">Instalación de Debian 13</h1>
 
-<p>Escribe aquí la introducción de tu post…</p>
+<p>En este tutorial aprenderás a instalar y configurar Debian Server desde cero.</p>
 
-<h2 id="sección-1">Sección 1</h2>
-
-<p>Pedro Oliver Pozo 30 de Octubre</p>
-
-<h3 id="subsección-11">Subsección 1.1</h3>
-
-<p>Detalles…</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c"># Ejemplo de código</span>
-<span class="nb">echo</span> <span class="s2">"Hola Mundo"</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="sección-2">Sección 2</h2>
-
-<p>Más contenido…</p>
-
-<h3 id="lista-de-elementos">Lista de elementos</h3>
+<h2 id="requisitos-previos">Requisitos Previos</h2>
 
 <ul>
-  <li>Elemento 1</li>
-  <li>Elemento 2</li>
-  <li>Elemento 3</li>
+  <li>Imagen ISO de Debian 12 Server</li>
+  <li>Máquina física o virtual con:
+    <ul>
+      <li>2 GB RAM (mínimo)</li>
+      <li>20 GB disco duro</li>
+      <li>Conexión a Internet</li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="comandos-importantes">Comandos importantes</h3>
+<h2 id="paso-1-descargar-debian">Paso 1: Descargar Debian</h2>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="c"># Comando de ejemplo</span>
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt upgrade <span class="nt">-y</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Descarga la imagen ISO desde la web oficial:
+```bash</p>
+<h1 id="enlace-oficial">Enlace oficial</h1>
+<p>https://www.debian.org/download</p>]]></content><author><name></name></author><category term="Sistemas Linux" /><category term="Debian" /><category term="debian" /><category term="linux" /><category term="servidor" /><category term="instalación" /><category term="tutorial" /><summary type="html"><![CDATA[Instalación de Debian 13]]></summary></entry><entry><title type="html">Presentación de La SectASIR</title><link href="https://tu-usuario.github.io/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Presentación de La SectASIR" /><published>2025-10-09T11:00:00+02:00</published><updated>2025-10-09T11:00:00+02:00</updated><id>https://tu-usuario.github.io/posts/welcome-to-jekyll</id><content type="html" xml:base="https://tu-usuario.github.io/posts/welcome-to-jekyll/"><![CDATA[<h1 id="bienvenido-a-la-sectasir">¡Bienvenido a La SectASIR!</h1>
 
-<h2 id="conclusión">Conclusión</h2>
+<p>Este es el espacio técnico dedicado a la <strong>Administración de Sistemas Informáticos y Redes</strong>.</p>
 
-<p>Resumen y conclusiones del post.</p>
+<h2 id="qué-es-asir">¿Qué es ASIR?</h2>
 
-<h2 id="referencias">Referencias</h2>
+<p>ASIR (Administración de Sistemas Informáticos y Redes) es una especialización técnica que forma profesionales capaces de:</p>
 
 <ul>
-  <li><a href="https://ejemplo.com">Enlace 1</a></li>
-  <li><a href="https://ejemplo.com">Enlace 2</a></li>
+  <li>🖥️ Administrar sistemas operativos (Linux y Windows)</li>
+  <li>🌐 Configurar y mantener redes empresariales</li>
+  <li>🔒 Implementar medidas de seguridad informática</li>
+  <li>☁️ Gestionar infraestructuras cloud</li>
+  <li>🛠️ Automatizar tareas mediante scripting</li>
 </ul>
 
-<p><img src="https://via.placeholder.com/800x400" alt="Imagen de ejemplo" /></p>]]></content><author><name></name></author><category term="Sistemas Linux" /><category term="linux" /><summary type="html"><![CDATA[“Prueba: Introducción a la implantación de aplicaciones Web”]]></summary></entry><entry><title type="html">Post de prueba</title><link href="https://tu-usuario.github.io/posts/post-de-prueba/" rel="alternate" type="text/html" title="Post de prueba" /><published>2025-10-15T08:41:38+02:00</published><updated>2025-10-15T08:41:38+02:00</updated><id>https://tu-usuario.github.io/posts/post-de-prueba</id><content type="html" xml:base="https://tu-usuario.github.io/posts/post-de-prueba/"><![CDATA[<h1 id="post-de-prueba">Post de prueba</h1>
+<h2 id="qué-encontrarás-aquí">¿Qué Encontrarás Aquí?</h2>
 
-<p>Escribe aquí la introducción de tu post…</p>
+<p>En este blog publicaremos contenido sobre:</p>
 
-<h2 id="sección-1">Sección 1</h2>
+<h3 id="1-tutoriales-prácticos">1. Tutoriales Prácticos</h3>
+<p>Guías paso a paso sobre configuración de servicios, instalación de software y resolución de problemas.</p>
 
-<p>Contenido de la primera sección.</p>
+<h3 id="2-casos-de-uso-reales">2. Casos de Uso Reales</h3>
+<p>Ejemplos de implementaciones en entornos reales de trabajo.</p>
 
-<h3 id="subsección-11">Subsección 1.1</h3>
+<h3 id="3-mejores-prácticas">3. Mejores Prácticas</h3>
+<p>Recomendaciones sobre seguridad, optimización y mantenimiento.</p>
 
-<p>Detalles…</p>
+<h3 id="4-laboratorios-y-prácticas">4. Laboratorios y Prácticas</h3>
+<p>Ejercicios para montar tu propio lab y practicar.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c"># Ejemplo de código</span>
-<span class="nb">echo</span> <span class="s2">"Hola Mundo"</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="sección-2">Sección 2</h2>
-
-<p>Más contenido…</p>
-
-<h3 id="lista-de-elementos">Lista de elementos</h3>
+<h2 id="categorías-principales">Categorías Principales</h2>
 
 <ul>
-  <li>Elemento 1</li>
-  <li>Elemento 2</li>
-  <li>Elemento 3</li>
+  <li><strong>Sistemas Linux</strong>: Administración, configuración y scripting</li>
+  <li><strong>Redes</strong>: Protocolos, configuración y troubleshooting</li>
+  <li><strong>Seguridad</strong>: Hardening, firewalls y VPNs</li>
+  <li><strong>Virtualización</strong>: VMware, Proxmox, Docker</li>
+  <li><strong>Servicios</strong>: Web, DNS, DHCP, correo, bases de datos</li>
+  <li><strong>Automatización</strong>: Ansible, scripts Bash, Python</li>
 </ul>
 
-<h3 id="comandos-importantes">Comandos importantes</h3>
+<h2 id="nuestro-primer-proyecto">Nuestro Primer Proyecto</h2>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="c"># Comando de ejemplo</span>
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt upgrade <span class="nt">-y</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Para comenzar, estaremos publicando una serie sobre:</p>
 
-<h2 id="conclusión">Conclusión</h2>
+<blockquote>
+  <p><strong>“Montando un Servidor Linux desde Cero”</strong></p>
 
-<p>Resumen y conclusiones del post.</p>
+  <p>Una guía completa que incluirá:</p>
+  <ul>
+    <li>Instalación de Debian/Ubuntu Server</li>
+    <li>Configuración básica y hardening</li>
+    <li>Instalación de servicios (Apache, MySQL, PHP)</li>
+    <li>Configuración de firewall</li>
+    <li>Certificados SSL/TLS</li>
+    <li>Backup y monitorización</li>
+  </ul>
+</blockquote>
 
-<h2 id="referencias">Referencias</h2>
+<p>¡Permanece atento!</p>
+
+<h2 id="únete-a-la-comunidad">Únete a la Comunidad</h2>
+
+<p>Este blog es para todos. Si tienes sugerencias, dudas o quieres compartir tus experiencias, ¡contáctanos!</p>
+
+<p><img src="https://via.placeholder.com/800x400/16a085/ffffff?text=Linux+Terminal" alt="Linux Terminal" /></p>
+
+<hr />
+
+<p><strong>¡Bienvenido a bordo y happy sysadmin!</strong> 🚀</p>]]></content><author><name></name></author><category term="General" /><category term="Bienvenida" /><category term="introducción" /><category term="asir" /><category term="administración-sistemas" /><summary type="html"><![CDATA[¡Bienvenido a La SectASIR!]]></summary></entry><entry><title type="html">Automatización en la Administración de Sistemas: el siguiente paso</title><link href="https://tu-usuario.github.io/posts/automatizacion-en-administracion-de-sistemas/" rel="alternate" type="text/html" title="Automatización en la Administración de Sistemas: el siguiente paso" /><published>2025-10-09T10:00:00+02:00</published><updated>2025-10-09T10:00:00+02:00</updated><id>https://tu-usuario.github.io/posts/automatizacion-en-administracion-de-sistemas</id><content type="html" xml:base="https://tu-usuario.github.io/posts/automatizacion-en-administracion-de-sistemas/"><![CDATA[<p>En la actualidad, la <strong>Administración de Sistemas</strong> ha evolucionado mucho más allá de la simple gestión de usuarios o servicios. Con la creciente complejidad de los entornos tecnológicos, la <strong>automatización</strong> se ha convertido en una herramienta indispensable para cualquier administrador moderno.</p>
+
+<h2 id="-por-qué-automatizar">💻 ¿Por qué automatizar?</h2>
+
+<p>Automatizar tareas repetitivas no solo ahorra tiempo, sino que <strong>reduce errores humanos</strong> y mejora la <strong>consistencia</strong> del entorno. Por ejemplo:</p>
+<ul>
+  <li>Actualizaciones automáticas del sistema y paquetes.</li>
+  <li>Copias de seguridad programadas.</li>
+  <li>Despliegues automáticos de sitios web (como este 😉).</li>
+  <li>Monitorización continua y alertas inteligentes.</li>
+</ul>
+
+<h2 id="-herramientas-comunes">🧠 Herramientas comunes</h2>
+
+<p>Algunas herramientas ampliamente utilizadas en la automatización son:</p>
 
 <ul>
-  <li><a href="https://ejemplo.com">Enlace 1</a></li>
-  <li><a href="https://ejemplo.com">Enlace 2</a></li>
+  <li><strong>Bash</strong> y <strong>PowerShell</strong> para tareas de scripting.</li>
+  <li><strong>Ansible</strong>, <strong>Puppet</strong> o <strong>Chef</strong> para configuración automatizada.</li>
+  <li><strong>Jenkins</strong> o <strong>GitHub Actions</strong> para CI/CD.</li>
+  <li><strong>Docker</strong> y <strong>Kubernetes</strong> para gestión de contenedores.</li>
 </ul>
 
-<p><img src="https://via.placeholder.com/800x400" alt="Imagen de ejemplo" /></p>]]></content><author><name></name></author><category term="Sistemas Linux" /><category term="tutorial" /><summary type="html"><![CDATA[Post de prueba]]></summary></entry></feed>
+<h2 id="️-un-ejemplo-sencillo">⚙️ Un ejemplo sencillo</h2>
+
+<p>Imagina que queremos automatizar el proceso de despliegue de una web estática (como esta construida con Jekyll).<br />
+Con un simple script en <strong>Bash</strong>, podríamos ejecutar:</p>
+
+<p>```bash
+bundle exec jekyll build
+git add .
+git commit -m “Despliegue automático”
+git push</p>]]></content><author><name></name></author><category term="Administración" /><category term="Automatización" /><category term="bash" /><category term="devops" /><category term="administración de sistemas" /><category term="jekyll" /><summary type="html"><![CDATA[En la actualidad, la Administración de Sistemas ha evolucionado mucho más allá de la simple gestión de usuarios o servicios. Con la creciente complejidad de los entornos tecnológicos, la automatización se ha convertido en una herramienta indispensable para cualquier administrador moderno.]]></summary></entry></feed>
